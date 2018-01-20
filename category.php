@@ -9,15 +9,15 @@
     <title>Card UI Template Design - Bracket Responsive Bootstrap 4 Admin Template</title>
 
     <!-- vendor css -->
-    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-    <link href="../lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
-    <link href="../lib/highlightjs/github.css" rel="stylesheet">
+    <link href="./lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="./lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="./lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="./lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="./lib/highlightjs/github.css" rel="stylesheet">
 
     <!-- Bracket CSS -->
-    <link rel="stylesheet" href="../css/bracket.css">
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="./css/bracket.css">
+    <link rel="stylesheet" href="./css/custom.css">
     
   </head>
 
@@ -152,7 +152,7 @@
                 <!-- loop starts here -->
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img8.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img8.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Suzzeth Bungaos</strong> tagged you and 18 others in a post.</p>
                       <span class="tx-12">October 03, 2017 8:45am</span>
@@ -162,7 +162,7 @@
                 <!-- loop ends here -->
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img9.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img9.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Mellisa Brown</strong> appreciated your work <strong class="tx-medium tx-gray-800">The Social Network</strong></p>
                       <span class="tx-12">October 02, 2017 12:44am</span>
@@ -171,7 +171,7 @@
                 </a>
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img10.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img10.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700">20+ new items added are for sale in your <strong class="tx-medium tx-gray-800">Sale Group</strong></p>
                       <span class="tx-12">October 01, 2017 10:20pm</span>
@@ -180,7 +180,7 @@
                 </a>
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img5.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img5.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Julius Erving</strong> wants to connect with you on your conversation with <strong class="tx-medium tx-gray-800">Ronnie Mara</strong></p>
                       <span class="tx-12">October 01, 2017 6:08pm</span>
@@ -196,7 +196,7 @@
           <div class="dropdown">
             <a href="#" class="nav-link nav-link-profile" data-toggle="dropdown">
               <span class="logged-name hidden-md-down">admin</span>
-              <img src="../img/img1.jpg" class="wd-32 rounded-circle" alt="">
+              <img src="./img/img1.jpg" class="wd-32 rounded-circle" alt="">
               <span class="square-10 bg-success"></span>
             </a>
             <div class="dropdown-menu dropdown-menu-header wd-200">
@@ -427,17 +427,17 @@
     </div><!-- br-mainpanel -->
     <!-- ########## END: MAIN PANEL ########## -->
 
-    <script src="../lib/jquery/jquery.js"></script>
-    <script src="../lib/popper.js/popper.js"></script>
-    <script src="../lib/bootstrap/bootstrap.js"></script>
-    <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-    <script src="../lib/moment/moment.js"></script>
-    <script src="../lib/jquery-ui/jquery-ui.js"></script>
-    <script src="../lib/jquery-switchbutton/jquery.switchButton.js"></script>
-    <script src="../lib/peity/jquery.peity.js"></script>
-    <script src="../lib/highlightjs/highlight.pack.js"></script>
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/popper.js/popper.js"></script>
+    <script src="./lib/bootstrap/bootstrap.js"></script>
+    <script src="./lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="./lib/moment/moment.js"></script>
+    <script src="./lib/jquery-ui/jquery-ui.js"></script>
+    <script src="./lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="./lib/peity/jquery.peity.js"></script>
+    <script src="./lib/highlightjs/highlight.pack.js"></script>
 
-    <script src="../js/bracket.js"></script>
+    <script src="./js/bracket.js"></script>
   </body>
 
 

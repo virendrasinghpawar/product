@@ -6,20 +6,18 @@
     <meta charset="utf-8">
 
 
-    <title>DashBoard | User list</title>
+    <title>Card UI Template Design - Bracket Responsive Bootstrap 4 Admin Template</title>
 
     <!-- vendor css -->
-    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-    <link href="../lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
-    <link href="../lib/highlightjs/github.css" rel="stylesheet">
-    <link href="../lib/datatables/jquery.dataTables.css" rel="stylesheet">
-    <link href="../lib/select2/css/select2.min.css" rel="stylesheet">
+    <link href="./lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="./lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="./lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="./lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="./lib/highlightjs/github.css" rel="stylesheet">
 
     <!-- Bracket CSS -->
-    <link rel="stylesheet" href="../css/bracket.css">
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="./css/bracket.css">
+    <link rel="stylesheet" href="./css/custom.css">
     
   </head>
 
@@ -38,7 +36,7 @@
         </a><!-- br-menu-link -->
      
       
-        <a href="#" class="br-menu-link ">
+        <a href="#" class="br-menu-link active show-sub">
           <div class="br-menu-item">
             <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
             <span class="menu-item-label">Manage Order</span>
@@ -52,7 +50,7 @@
           
         </ul>
 
-        <a href="#" class="br-menu-link active show-sub ">
+        <a href="#" class="br-menu-link ">
           <div class="br-menu-item">
             <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
             <span class="menu-item-label">User</span>
@@ -60,7 +58,9 @@
           </div><!-- menu-item -->
         </a><!-- br-menu-link -->
         <ul class="br-menu-sub nav flex-column">
-          <li class="nav-item"><a href="userlist.php" class="nav-link">User Detail</a></li>
+          <li class="nav-item"><a href="userList.php" class="nav-link">User Detail</a></li>
+          <li class="nav-item"><a href="alerts.php" class="nav-link">Current Delivery Order</a></li>
+          <li class="nav-item"><a href="buttons.php" class="nav-link">Failed Order List</a></li>
         </ul>
        
         <a href="#" class="br-menu-link ">
@@ -152,7 +152,7 @@
                 <!-- loop starts here -->
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img8.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img8.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Suzzeth Bungaos</strong> tagged you and 18 others in a post.</p>
                       <span class="tx-12">October 03, 2017 8:45am</span>
@@ -162,7 +162,7 @@
                 <!-- loop ends here -->
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img9.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img9.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Mellisa Brown</strong> appreciated your work <strong class="tx-medium tx-gray-800">The Social Network</strong></p>
                       <span class="tx-12">October 02, 2017 12:44am</span>
@@ -171,7 +171,7 @@
                 </a>
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img10.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img10.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700">20+ new items added are for sale in your <strong class="tx-medium tx-gray-800">Sale Group</strong></p>
                       <span class="tx-12">October 01, 2017 10:20pm</span>
@@ -180,7 +180,7 @@
                 </a>
                 <a href="#" class="media-list-link read">
                   <div class="media pd-x-20 pd-y-15">
-                    <img src="../img/img5.jpg" class="wd-40 rounded-circle" alt="">
+                    <img src="./img/img5.jpg" class="wd-40 rounded-circle" alt="">
                     <div class="media-body">
                       <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Julius Erving</strong> wants to connect with you on your conversation with <strong class="tx-medium tx-gray-800">Ronnie Mara</strong></p>
                       <span class="tx-12">October 01, 2017 6:08pm</span>
@@ -196,7 +196,7 @@
           <div class="dropdown">
             <a href="#" class="nav-link nav-link-profile" data-toggle="dropdown">
               <span class="logged-name hidden-md-down">admin</span>
-              <img src="../img/img1.jpg" class="wd-32 rounded-circle" alt="">
+              <img src="./img/img1.jpg" class="wd-32 rounded-circle" alt="">
               <span class="square-10 bg-success"></span>
             </a>
             <div class="dropdown-menu dropdown-menu-header wd-200">
@@ -223,14 +223,14 @@
       <div class="br-pageheader pd-y-15 pd-l-20">
         <nav class="breadcrumb pd-0 mg-0 tx-12">
           <a class="breadcrumb-item" href="index-2.php">Home</a>
-          <a class="breadcrumb-item" href="#">User </a>
-          <span class="breadcrumb-item active"> User List</span>
+          <a class="breadcrumb-item" href="#">Manage Category</a>
+          <span class="breadcrumb-item active"> CategoryList</span>
         </nav>
       </div><!-- br-pageheader -->
       <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
-        <h4 style="display:inline" class="tx-gray-800 mg-b-5">User</h4><span style="display:inline">&nbsp;List</span>
+        <h4 style="display:inline" class="tx-gray-800 mg-b-5">Food Category</h4><span style="display:inline">List</span>
         
-        <button type="button" class="pull-right btn btn-primary">Add User</button>
+        <!-- <button type="button" class="pull-right btn btn-primary">Add Category</button> -->
         
         <!-- <p class="mg-b-0">A card is a flexible and extensible content container that includes options for headers and footers, etc.</p> -->
       </div>
@@ -239,59 +239,61 @@
         <!-- <div class="br-section-wrapper"> -->
 
             <div class="panel panel-primary">
-                <div class="panel-heading">User List</div>
+                <div class="panel-heading">Add  Product</div>
+
                 <div class="panel-body">
-                    <!-- <div class="table-wrapper"> -->
-                        <table id="datatable1" class="table table-bordered table-hover">
-                          <thead>
-                            <tr>
-                              <th> #</th>
-                              <th >UserName</th>
-                              <th >Mobile No.</th>
-                              <th >Email Id.</th>
-                              <th >Address</th>
-                              <th >City</th>
-                              <th >Regd. Date</th>
-                              <th >Status</th>
-                              <th >Action</th>
-                            </tr>
-                          </thead>
-                         <tbody>
-                             <tr>
-                                 <td >1</td>
-                                 <td>viru</td>
-                                 <td>123468798</td>
-                                 <td>viru@gmail.com</td>
-                                 <td>xyz</td>
-                                 <td>New York</td>
-                                 <td>16-01-2018</td>
-                                 <td>
-                              
-                                    
-                                        <select name="" id="activeDisable" class="form-control">
-                                          <option value="">Active </option>
-                                          <option value="">Disable </option>
-                                          
-                                        </select>
+                    <div class="row mg-t-80">
+               
+                        <div class="col-xl-12 mg-t-20 mg-xl-t-0">
+                          <div class="form-layout form-layout-5">
+                            <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Right Label Alignment</h6>
+                            <p class="mg-b-30 tx-gray-600">A basic form where labels are aligned in right.</p>
+                            <div class="row">
+                                    <label class="col-sm-4 form-control-label"><span class="tx-danger">*</span>Select Category:</label>
+                                    <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                            <select class="form-control select2" data-placeholder="Choose country">
+                                                    <option label="Choose country"></option>
+                                                    <option value="USA">United States of America</option>
+                                                    <option value="UK">United Kingdom</option>
+                                                    <option value="China">China</option>
+                                                    <option value="Japan">Japan</option>
+                                            </select>
+                                    </div>
 
-                                     
-                                    
-                                  </td>
-                                  <td>
-                                     <div style="display:inline">
-                                         <button type="button" class="btn btn-warning">EDIT</>
-                                       
-                                         <button type="button" class="btn btn-primary" >DELETE</button>
-                                         
-                                    </div> 
-
-                                  </td>
-                                </tr>
-                             
-                         </tbody>
-                        </table>
-                      <!-- </div>table-wrapper -->
-            
+                              <label class="col-sm-4 form-control-label"><span class="tx-danger">*</span> Firstname:</label>
+                              <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                <input type="text" class="form-control" placeholder="Enter firstname">
+                              </div>
+                            </div><!-- row -->
+                            <div class="row mg-t-20">
+                              <label class="col-sm-4 form-control-label"><span class="tx-danger">*</span> Lastname:</label>
+                              <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                <input type="text" class="form-control" placeholder="Enter lastname">
+                              </div>
+                            </div>
+                            <div class="row mg-t-20">
+                              <label class="col-sm-4 form-control-label"><span class="tx-danger">*</span> Email:</label>
+                              <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                <input type="text" class="form-control" placeholder="Enter email address">
+                              </div>
+                            </div>
+                            <div class="row mg-t-20">
+                              <label class="col-sm-4 form-control-label"><span class="tx-danger">*</span> Address:</label>
+                              <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                <textarea rows="2" class="form-control" placeholder="Enter your address"></textarea>
+                              </div>
+                            </div><!-- row -->
+                            <div class="row mg-t-30">
+                              <div class="col-sm-8 mg-l-auto">
+                                <div class="form-layout-footer">
+                                  <button class="btn btn-info">Submit Form</button>
+                                  <button class="btn btn-secondary">Cancel</button>
+                                </div><!-- form-layout-footer -->
+                              </div><!-- col-8 -->
+                            </div>
+                          </div><!-- form-layout -->
+                        </div><!-- col-6 -->
+                      </div><!-- row -->
                 </div>
               </div>
 
@@ -315,40 +317,17 @@
     </div><!-- br-mainpanel -->
     <!-- ########## END: MAIN PANEL ########## -->
 
-    <script src="../lib/jquery/jquery.js"></script>
-    <script src="../lib/popper.js/popper.js"></script>
-    <script src="../lib/bootstrap/bootstrap.js"></script>
-    <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-    <script src="../lib/moment/moment.js"></script>
-    <script src="../lib/jquery-ui/jquery-ui.js"></script>
-    <script src="../lib/jquery-switchbutton/jquery.switchButton.js"></script>
-    <script src="../lib/peity/jquery.peity.js"></script>
-    <script src="../lib/highlightjs/highlight.pack.js"></script>
-    <script src="../lib/datatables/jquery.dataTables.js"></script>
-    <script src="../lib/datatables-responsive/dataTables.responsive.js"></script>
-    <script src="../lib/select2/js/select2.min.js"></script>
-    <script src="../js/bracket.js"></script>
-    <script>
-   $(function(){
-    'use strict';
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/popper.js/popper.js"></script>
+    <script src="./lib/bootstrap/bootstrap.js"></script>
+    <script src="./lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="./lib/moment/moment.js"></script>
+    <script src="./lib/jquery-ui/jquery-ui.js"></script>
+    <script src="./lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="./lib/peity/jquery.peity.js"></script>
+    <script src="./lib/highlightjs/highlight.pack.js"></script>
 
-    $('#datatable1').DataTable({
-      responsive: true,
-      language: {
-        searchPlaceholder: 'Search...',
-        sSearch: '',
-        lengthMenu: '_MENU_ items/page',
-      }
-    });
-
-
-
-    // Select2
-    $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
-
-  });
-    
-    </script>
+    <script src="./js/bracket.js"></script>
   </body>
 
 
